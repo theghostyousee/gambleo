@@ -20,13 +20,11 @@ body {
   display: flex;
   color: white;
   background-color: black;
-  position: relative;
   align-items: center;
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  position: relative;
   background-image: url("./pepebg.jpg");
   justify-content: center;
   position: relative;
@@ -179,13 +177,10 @@ li:nth-child(4) {
     width: 100%;
     display: flex;
     color: white;
-    background-color: black;
-    position: relative;
     align-items: center;
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center center;
-    position: relative;
     background-image: url("./pepebg.jpg");
     justify-content: center;
     position: relative;
