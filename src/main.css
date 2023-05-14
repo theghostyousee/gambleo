@@ -219,6 +219,7 @@ li:nth-child(4) {
     width: 98%;
     height: 20%;
     display: flex;
+    z-index: 99;
     justify-content: center;
     align-items: center;
   }
