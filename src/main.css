@@ -22,10 +22,7 @@ body {
   background-color: black;
   align-items: center;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-image: url("./pepebg.jpg");
+  background: url("./pepebg.jpg") no-repeat center center /cover;
   justify-content: center;
   position: relative;
 }
