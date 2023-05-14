@@ -230,4 +230,5 @@ li:nth-child(4) {
     font-size: max(calc(18 * var(--res)), 16px);
     color: #9a9fae;
   }
+  
 }
