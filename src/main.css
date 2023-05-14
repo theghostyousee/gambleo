@@ -208,8 +208,6 @@ li:nth-child(4) {
     text-align: center;
     width: 100%;
     z-index: 99;
-    height: 100%;
-    filter: drop-shadow(40px 60px 150px rgba(59, 38, 123, 0.7));
   }
 
   .paragraph {
