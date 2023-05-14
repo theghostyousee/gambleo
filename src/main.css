@@ -53,7 +53,6 @@ body:after {
   height: 100vh;
   z-index: 99;
   background-color: red;
-  filter: drop-shadow(40px 60px 150px rgba(59, 38, 123, 0.7));
 }
 
 .title {
