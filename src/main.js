@@ -11,11 +11,11 @@ import Medium from './socials-medium.svg'
 function main() {
 
     const openTwitter = () => {
-        window.open("https://twitter.com/GambleoProtocol");
+        window.open("https://twitter.com/PeposMoney");
     }
 
     const tweet = () => {
-        window.open("https://twitter.com/intent/tweet?text=I%27m%20ready%20to%20place%20bets%20with%20%40GambleoProtocol%21%20%0A%0ASign%20me%20up%20for%20early%20access%21%F0%9F%8E%B2&")
+        window.open("https://twitter.com/intent/tweet?text=I%27m%20getting%20ready%20to%20collect%20my%20%24PEPOS%20rewards%20and%20gain%20access%20to%20a%20lifetime%20of%20passive%20income%20%0D%0A%0D%0A%40PeposMoney%20%20%F0%9F%90%B8%20EARLY%3A%20peposmoney.xyz%20&")
     }
   return (
     <div className='wrap'>
