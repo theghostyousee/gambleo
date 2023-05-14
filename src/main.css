@@ -25,172 +25,183 @@ body {
   flex-direction: column;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 110%;
+  background-size: cover;
   position: relative;
-  background-image: url("./bg1.jpg");
+  background-image: url("./pepebg.jpg");
   justify-content: center;
   position: relative;
 }
 
 body:after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.85
-    ); /* You can adjust the opacity by changing the last value */
-    z-index: -1;
-  }
-  
-
-.wrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    filter: drop-shadow(40px 60px 150px rgba(59, 38, 123, 0.7));
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    8,
+    49,
+    9,
+    0.949
+  ); /* You can adjust the opacity by changing the last value */
+  z-index: -1;
 }
 
-.title{
-    display: flex;
-    width: 100%;
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  filter: drop-shadow(40px 60px 150px rgba(59, 38, 123, 0.7));
 }
 
-.title h1{
-    font-size: max(calc(54 * var(--res)), 35px);
+.title {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: max(calc(54 * var(--res)), 35px);
 }
 
 .paragraph {
-    display: flex;
-    width: 100%;
-    height: 12%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.paragraph p{
-    font-size: max(calc(14 * var(--res)), 15px);
-    color: #9a9fae;
+.paragraph p {
+  font-size: max(calc(14 * var(--res)), 15px);
+  color: #9a9fae;
 }
 
 .buts {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.buts button{
-    background: linear-gradient(152.2deg,  #FEBD29, #FFD700, #FFC107);
-    padding: 12px 40px;
-    border-radius: 12px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border: none;
-    font-weight: 500;
-    font-size: max(calc(14 * var(--res)), 15px);
+.buts button {
+  background: linear-gradient(152.2deg, #45fe29, #45fe29, #45fe29);
+  padding: 12px 40px;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: max(calc(14 * var(--res)), 15px);
 }
 
-.little-title{
-
-    
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 20%;
-    justify-content: center;
-    align-items: center;
-    gap: 1vmin;
+.little-title {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
 }
 
-.little-title p{
-    font-size: max(calc(10 * var(--res)), 9px);
-    color: #9a9fae;
-    text-align: center;
+.little-title p {
+  font-size: max(calc(10 * var(--res)), 9px);
+  color: #9a9fae;
+  text-align: center;
 }
 
-.little-title img{
-    width: 212px;
-    aspect-ratio: auto 272 / 80;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+.little-title img {
+  width: 212px;
+  aspect-ratio: auto 272 / 80;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
-.picture{
-    display: flex;
-    margin-right: 14px;
+.picture {
+  display: flex;
+  margin-right: 14px;
 }
 
-picture img{
+picture img {
   width: max(calc(40 * var(--res)), 150px);
-
 }
 
-.socials{
-    display: flex;
-    height: 15%;
-    justify-content: center;
-    align-items: center;
-    gap: 4vmin;
-    position: absolute;
-    bottom: 0;
+.socials {
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  gap: 4vmin;
+  position: absolute;
+  bottom: 0;
 }
 
-li{
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    background-color: #13131f;
-    border: 1px solid #161827;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+li {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #13131f;
+  border: 1px solid #161827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-li img{
+li img {
   width: max(calc(10 * var(--res)), 20px);
-
 }
 
-li:nth-child(1){
-    cursor: pointer;
+li:nth-child(1) {
+  cursor: pointer;
 }
-li:nth-child(2),li:nth-child(3),li:nth-child(4){
-    cursor: not-allowed;
+li:nth-child(2),
+li:nth-child(3),
+li:nth-child(4) {
+  cursor: not-allowed;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
+  body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-image: url("./pepebg.jpg");
+    justify-content: center;
+    position: relative;
+  }
 
-    .paragraph {
-        display: flex;
-        width: 98%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .paragraph p{
-        font-size: max(calc(18 * var(--res)), 16px);
-        color: #9a9fae;
-    }
-    
-    
+  .paragraph {
+    display: flex;
+    width: 98%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph p {
+    font-size: max(calc(18 * var(--res)), 16px);
+    color: #9a9fae;
+  }
 }

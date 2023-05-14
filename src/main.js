@@ -21,11 +21,11 @@ function main() {
     <div className='wrap'>
 
         <div className='title'>
-            <h1>Web3 Gambling Revolution<br/>Begins.</h1>
+            <h1>Get your PEPOS<br/>Today.</h1>
         </div>
 
         <div className='paragraph'>
-            <p>Gambleo enables you to bet directly through your wallet without any hassle.<br/> Experience the Future of Gambling with us on<br/> Arbitrum.</p>
+            <p>Join the DeFi revolution with a fun, multi-chain Yield Processing Node<br/> and start harvesting your rewards!<br/></p>
         </div>
 
         <div className='buts'>
@@ -50,9 +50,9 @@ function main() {
             <li>
                 <img src={Medium}></img>
             </li>
-            <li>
+            {/* <li>
                 <img src={Discord}></img>
-            </li>
+            </li> */}
         </ul>
     </div>
   )
