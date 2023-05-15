@@ -49,7 +49,7 @@ function main() {
                 <img src={Twitter}></img>
             </li>
             <li>
-                <img src={Telegram} onClick={openTwitter}></img>
+                <img src={Telegram} onClick={telegram}></img>
             </li>
             <li>
                 <img src={Medium}></img>
