@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import Arbitrum from './arbitrum.svg'
+import Arbitrum from './binance.png'
 import Twitter from './socials-twitter.svg'
 import Telegram from './socials-telegram.svg'
 import Discord from './socials-discord.svg'
@@ -11,25 +11,29 @@ import Medium from './socials-medium.svg'
 function main() {
 
     const openTwitter = () => {
-        window.open("https://twitter.com/PeposMoney");
+        window.open("https://twitter.com/NPC_bsc");
     }
 
     const tweet = () => {
-        window.open("https://twitter.com/intent/tweet?text=I%27m%20getting%20ready%20to%20collect%20my%20%24PEPOS%20rewards%20and%20gain%20access%20to%20a%20lifetime%20of%20passive%20income%20%0D%0A%0D%0A%40PeposMoney%20%20%F0%9F%90%B8%20EARLY%3A%20peposmoney.xyz%20&")
+        window.open("https://twitter.com/intent/tweet?text=This%20is%20my%20proof%20of%20NPC%20for%20%40NPC_bsc%20%F0%9F%A4%96%0D%0A%0D%0ALaunching%20soon%20on%20%23BSC&")
     }
+    const telegram = () => {
+        window.open("https://t.me/NPC_bsc")
+    }
+
   return (
     <div className='wrap'>
 
         <div className='title'>
-            <h1>Get your PEPOS<br/>Today.</h1>
+            <h1>$NPC COMING<br/>on BSC.</h1>
         </div>
 
         <div className='paragraph'>
-            <p>Join the DeFi revolution with a fun, multi-chain Yield Processing Node<br/> and start harvesting your rewards!<br/></p>
+            <p>The NPC meme is the most popular in the world. It deserves to be alongside PEPE<br/> even Elon Musk said so<br/></p>
         </div>
 
         <div className='buts'>
-            <button onClick={tweet}>Early Access</button>
+            <button onClick={tweet}>Proof of NPC</button>
             
         </div>
 
@@ -45,7 +49,7 @@ function main() {
                 <img src={Twitter}></img>
             </li>
             <li>
-                <img src={Telegram}></img>
+                <img src={Telegram} onClick={openTwitter}></img>
             </li>
             <li>
                 <img src={Medium}></img>

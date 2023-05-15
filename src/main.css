@@ -22,7 +22,7 @@ body {
   background-color: black;
   align-items: center;
   flex-direction: column;
-  background: url("./pepebg.jpg") no-repeat center center /cover;
+  background: url("https://www.spectator.co.uk/wp-content/uploads/2023/04/Dot.jpg?w=1000") no-repeat center center /cover;
   justify-content: center;
   position: relative;
 }
@@ -34,12 +34,7 @@ body:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    8,
-    49,
-    9,
-    0.949
-  ); 
+  background-color: rgba(0, 0, 0, 0.947); 
   z-index: -1;
 }
 
@@ -71,7 +66,7 @@ body:after {
 .paragraph {
   display: flex;
   width: 100%;
-  height: 12%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +88,7 @@ body:after {
 }
 
 .buts button {
-  background: linear-gradient(152.2deg, #45fe29, #45fe29, #45fe29);
+  background: linear-gradient(152.2deg,#E7E6E6, #E7E6E6, #E7E6E6);
   padding: 12px 40px;
   border-radius: 12px;
   color: rgb(0, 0, 0);
@@ -107,7 +102,7 @@ body:after {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 20%;
+  height: 25%;
   justify-content: center;
   align-items: center;
   gap: 1vmin;
@@ -132,7 +127,7 @@ body:after {
 }
 
 picture img {
-  width: max(calc(40 * var(--res)), 150px);
+  width: max(calc(70 * var(--res)), 200px);
 }
 
 .socials {
@@ -160,10 +155,10 @@ li img {
   width: max(calc(10 * var(--res)), 20px);
 }
 
-li:nth-child(1) {
+li:nth-child(1),li:nth-child(2)  {
   cursor: pointer;
 }
-li:nth-child(2),
+
 li:nth-child(3),
 li:nth-child(4) {
   cursor: not-allowed;
@@ -179,7 +174,6 @@ li:nth-child(4) {
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("./pepebg.jpg");
     justify-content: center;
     position: relative;
   }
