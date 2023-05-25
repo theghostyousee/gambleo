@@ -156,11 +156,6 @@ li:nth-child(4) {
     display: flex;
    
     align-items: center;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-position: center center;
-    justify-content: center;
-    position: relative;
   }
 
   .wrap {
