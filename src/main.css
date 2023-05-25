@@ -19,10 +19,9 @@ body {
   width: 100%;
   display: flex;
   color: white;
-  background-color: black;
   align-items: center;
   flex-direction: column;
-  background: url("https://www.spectator.co.uk/wp-content/uploads/2023/04/Dot.jpg?w=1000") no-repeat center center /cover;
+  background: url("bg.jpeg") no-repeat center center /cover;
   justify-content: center;
   position: relative;
 }
@@ -34,7 +33,7 @@ body:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.947); 
+  background-color: rgba(0, 0, 0, 0.631); 
   z-index: -1;
 }
 
@@ -46,6 +45,7 @@ body:after {
   text-align: center;
   width: 100%;
   height: 100vh;
+  gap: 2vmin;
   z-index: 99;
 
 }
@@ -53,45 +53,30 @@ body:after {
 .title {
   display: flex;
   width: 100%;
-  height: 15%;
-  display: flex;
+  height: 25%;
   justify-content: center;
   align-items: center;
 }
 
-.title h1 {
-  font-size: max(calc(54 * var(--res)), 35px);
+.title img {
+  width: max(calc(440 * var(--res)), 450px);
 }
 
-.paragraph {
-  display: flex;
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.paragraph p {
-  font-size: max(calc(14 * var(--res)), 15px);
-  color: #9a9fae;
-}
 
 .buts {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 5%;
-  display: flex;
-  justify-content: center;
+  height: 25%;
+  justify-content: start;
   align-items: center;
 }
 
 .buts button {
-  background: linear-gradient(152.2deg,#E7E6E6, #E7E6E6, #E7E6E6);
+  background: linear-gradient(152.2deg,#FFAD74 ,#FF84A5, #FF8B2E);
   padding: 12px 40px;
   border-radius: 12px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   border: none;
   font-weight: 500;
