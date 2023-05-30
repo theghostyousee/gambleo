@@ -118,20 +118,14 @@ function Presale() {
     handleMaxClick();
   }, []);
 
+  
  
-  const [countdown, setCountdown] = useState("14:00:00");
+  const [countdown, setCountdown] = useState("08:00:00"); // Set initial countdown value to 8 hours
 
   useEffect(() => {
     const calculateCountdown = () => {
       const now = new Date();
-      const endTime = new Date(
-        now.getFullYear(),
-        now.getMonth(),
-        now.getDate() + 1,
-        19,
-        0,
-        0
-      ); // Set end time to tomorrow at midnight
+      const endTime = new Date(now.getTime() + 8 * 60 * 60 * 1000); // Set end time 8 hours from the current time
       const remainingTime = endTime.getTime() - now.getTime(); // Calculate remaining time in milliseconds
 
       if (remainingTime <= 0) {
@@ -144,14 +138,13 @@ function Presale() {
       }
     };
 
-    calculateCountdown(); // Calculate initial countdown value immediately
     const interval = setInterval(calculateCountdown, 1000);
 
     return () => clearInterval(interval);
   }, []);
-  
 
   
+
 
   return (
     <div className="wrap">
@@ -167,7 +160,7 @@ function Presale() {
 
       <div className="title-presale">
         <h3>RISK PUBLIC PRESALE</h3>
-         <h5 style={gradientStyle}>Live in {countdown}</h5>
+         {/* <h5 style={gradientStyle}>Live in {countdown}</h5> */}
       </div>
       <div className="card-presale">
         <div className="card-presale-header">
